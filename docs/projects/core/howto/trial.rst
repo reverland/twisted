@@ -140,7 +140,7 @@ you get both done - nothing below will work unless you do.
 First, make sure that the directory that *contains* your
 ``calculus`` directory is in your Python load path. If you're
 using the Bash shell on some form of unix (e.g., Linux, Mac OS X), run
-``PYTHONPATH="$PYTHONPATH:`pwd`/.."`` at
+``export PYTHONPATH="$PYTHONPATH:`pwd`/.."`` at
 the command line in the ``calculus`` directory. Once you have your
 Python path set up correctly, you should be able to run Python from the
 command line and ``import calculus`` without seeing
