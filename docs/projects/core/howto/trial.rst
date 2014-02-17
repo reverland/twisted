@@ -1,4 +1,3 @@
-
 :LastChangedDate: $LastChangedDate$
 :LastChangedRevision: $LastChangedRevision$
 :LastChangedBy: $LastChangedBy$
@@ -328,7 +327,7 @@ module, ``calculus/base_2.py`` :
 
 We'll also create a new version of test_base_1 which imports and tests this
 new implementation,
-in ``calculus/test_base_2.py`` :
+in ``calculus/test/test_base_2.py`` :
 
 
 
