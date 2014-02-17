@@ -721,8 +721,8 @@ to be triggered after a certain duration.
 
 
 What happens here? We instantiate our protocol as usual, the only trick
-is to create the clock, and assign ``proto.callLater`` to
-``clock.callLater`` . Thus, every ``callLater`` 
+is to create the clock, and assign ``clock.callLater`` to 
+``proto.callLater`` . Thus, every ``callLater`` 
 call in the protocol will finish before ``clock.advance()`` returns.
 
 
