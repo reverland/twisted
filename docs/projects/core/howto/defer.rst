@@ -718,7 +718,7 @@ reasons:
 
 
 Calling ``cancel()`` will always succeed without an error
-regardless of whether or not cancellation was possible. In cases 1 and 2 the ``Deferred`` may well errback with a``twisted.internet.defer.CancelledError`` while the underlying
+regardless of whether or not cancellation was possible. In cases 1 and 2 the ``Deferred`` may well errback with a ``twisted.internet.defer.CancelledError`` while the underlying
 operation continues. ``Deferred`` s that support cancellation should
 document what they do when cancelled, if they are uncancellable in certain edge
 cases, etc..
@@ -820,7 +820,7 @@ with the Deferred that is being cancelled):
 
 Now if someone calls ``cancel()`` on the ``Deferred`` 
 returned from ``HTTPClient.request()`` , the HTTP request will be
-cancelled (assuming it's not too late to do so). Care should be taken not to``callback()`` a Deferred that has already been cancelled.
+cancelled (assuming it's not too late to do so). Care should be taken not to ``callback()`` a Deferred that has already been cancelled.
 
 
 
